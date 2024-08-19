@@ -1,0 +1,767 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: italic;
+    src: url(/font/italic.woff2);
+}
+@font-face {
+    font-family: hamb;
+    src: url(/font/hamburg.woff2);
+}
+@font-face {
+    font-family: ash;
+    src: url(/font/grey.woff2);
+}
+.four-nav {
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+    font-family: ash;
+}
+.logo {
+    background-color: #C59D5F;
+    /* width: 90%; */
+}
+.logo img {
+    padding: 15px;
+}
+.home {
+    font-size: 1.1em;
+    font-weight: bold;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    padding: 0 40px;
+}
+.enter {
+    background-color: #272727;
+}
+.inner {
+    padding: 15px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+}
+.enter1 {
+    gap: 10px; 
+}
+.right {
+    border-right: 2px solid rgb(63, 60, 60);
+    height: 40px;
+}
+.enter1 img {
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+}
+.enter2 {
+    padding: 20px;
+    color: white;
+    font-family: hamb;
+}
+.enter3 {
+    gap: 10px;
+    font-size: 1.5em
+}
+.enter3 img {
+    width: 20px;
+}
+.enter4 p{
+    margin: 10px 0;
+    color: grey;
+}
+.enter5 {
+    justify-content: center;
+    background-color: #C59D5F;
+}
+.enter5 img {
+    width: 60px;
+}
+.w80 {
+    width: 80%;
+    margin: auto;
+}
+.w90 {
+    width: 90%;
+    margin: auto;
+}
+.grid {
+    display: grid;
+}
+.black {
+    background-color: black;
+}
+.hero_bg {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/04/hero_bg_3_1.png);
+    /* height: 600px; */
+    margin-bottom: 30px;
+    padding: 0 20px;
+    background-size: cover;
+}
+.both {
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+}
+.hero_right {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/04/hero_3_1.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    bottom: 100px;
+    right: 100px;
+    z-index: 1;
+}
+.leaf1 {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/04/hero_shape_3_3.png);
+    height: 500px;
+    width: 100%;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    bottom: 20px;
+    right: 0px;
+}
+.hero-offer {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/04/hero_offer_1.svg);
+    height: 200px;
+    width: 100%;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    bottom: 50px;
+    right: 320px;
+    z-index: 2;
+}
+
+.right1 {
+    background-color: #C59D5F;
+    height: 700px;
+    width: 500px;
+    right: -10px;
+}
+.hero_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.hero_left span {
+    font-size: 4em;
+    font-family: italic;
+    color: #C59D5F;
+}
+.hero_left b {
+    font-size: 10em;
+    margin: 0;
+    font-weight: lighter;
+}
+.hero_left p {
+    font-size: 5.5em;
+    margin: 0;
+}
+button {
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: #C59D5F;
+    border: none;
+    font-size: .9em;
+    margin-top: 40px;
+}
+.gold {
+    background-color: #F4EFE3;
+    bottom: -100px;
+}
+.six-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 50px 0;
+}
+.pasta {
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgb(246, 244, 244);
+    border-radius: 30px;
+}
+.pasta1 {
+    width: 100%;
+}
+.pasta1 img {
+    width: 100%;
+}
+.margin {
+    margin-top: 17px;
+}
+.two_col {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 85%;
+    margin-bottom: 30px;
+}
+.humburger {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/cta_bg_21.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 350px;
+}
+.humburger1 {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/cta_bg_22.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 350px;
+}
+.flex {
+    display: flex;
+}
+.fd {
+    display: flex;
+    flex-direction: column;
+}
+.align {
+    align-items: center;
+}
+.rel {
+    position: relative;
+}
+.abs {
+    position: absolute;
+}
+.hum_text {
+    color: white;
+    padding: 40px;
+    margin-top: 30px;
+    font-family: hamb;
+}
+.hum_text span {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.hum_text b {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.hum_text p {
+    font-size: 1.2em;
+}
+.hum_text button {
+    margin: 0;
+    font-weight: bold;
+}
+.leaf {
+    top: 0px;
+    left: -70px;
+}
+.leaf img {
+    width: 80%;
+}
+.blkfood {
+    top: 0px;
+    left: 200px;
+    width: 500px;
+}
+.blkfood img {
+    width: 100%;
+}
+.two_col_text {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 80px;
+    position: relative;
+    bottom: -100px;
+    font-family: hamb
+}
+.g10 {
+    gap: 10px;
+}
+.header {
+    font-size: .9em;
+}
+.header img {
+    width: 30px;
+}
+.head_text {
+    margin-top: 20px;
+}
+.head_text b {
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+.head_text p{
+    font-size: 1.1em;
+    color: grey;
+    font-family: ash;
+}
+.image {
+    width: 80px;
+}
+.image img {
+    width: 100%;
+}
+.Q p {
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+.Q span {
+    font-size: .95em;
+    color: grey;
+    font-family: ash;
+}
+.bord {
+    border-right: .1px solid rgba(128, 128, 128, 0.328);
+}
+.border {
+    border-top: 1px solid rgba(128, 128, 128, 0.328);
+}
+.about {
+    margin: 20px 0px;
+}
+.book {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-style: double;
+    font-size: .9em;
+}
+.blk_bg {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/feature_bg_1.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: contain;
+    margin: 30px 0;
+    position: relative;
+    bottom: -100px;
+}
+.three_col {
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    gap: 50px;
+}
+.roundbg {
+    background-color: rgb(45, 43, 43);
+    border-radius: 60px;
+    width: 50px;
+    padding: 10px;
+}
+.roundbg img {
+    width: 100%;
+}
+.roundtext p {
+    font-size: 1.7em;
+    margin: 15px 0;
+    font-family: hamb;
+}
+.roundtext span {
+    color: grey;
+    font-size: 1.01em;
+    font-family: ash;
+}
+.over_colbg {
+    background-color: #F4EFE3;
+    height: 1150px;
+}
+.over_col {
+    position: relative;
+    bottom: -100px;
+    font-family: hamb;
+}
+.mid {
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.mid p {
+    font-size: 3em;
+    margin: 0;
+}
+.menu1 {
+    justify-content: center;
+    gap: 10px;
+}
+.four_col {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.white_bg {
+    background-color: rgb(251, 249, 249);
+    padding: 15px;
+}
+.plate img  {
+    width: 100%;
+}
+.star img {
+    margin-top: 20px;
+    width: 20px;
+}
+.Platter p{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.herobg {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/cta_bg_3.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: hamb;
+}
+.rightleft {
+    grid-template-columns: 2.2fr 2fr .5fr;
+    color: white;
+    flex-wrap: wrap;
+}
+.rightbg {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/cta_1.png);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.left {
+    justify-content: center;
+    margin-left: 100px;
+    gap: 20px;
+}
+.left span {
+    font-size: 2em;
+}
+.left b {
+    font-size: 4.5em;
+}
+.left p {
+    font-size: 3em;
+    margin: 10px 0;
+}
+.left button {
+    margin: 10px 0;
+}
+.tomato {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/tomato_2.png);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    bottom: 60px;
+    right: 40px;
+}
+.price {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/shape_bg_2.svg);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    bottom: 50px;
+    right: 190px;
+}
+.price span {
+    right: 50px;
+    font-size: 4em;
+    bottom: 40px;
+}
+.two-col {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.min {
+    background-color: #C59D5F;
+    padding: 5px;
+}
+.min img{
+    width: 15px;
+}
+.minbut {
+    background-color: #C59D5F;
+    margin: 0;
+}
+.bikehero {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/delivery_1.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.two-row {
+    grid-template-columns: 1fr 1fr;
+    font-family: hamb;
+    gap: 20px;
+    margin: 50px 0;
+}
+/* .platter */
+.platter1 {
+    justify-content: center;
+}
+.platter2 {
+    /* justify-content: space-around; */
+    gap: 20px;
+}
+.platter3 {
+    gap: 20px;
+}
+.platter4 img {
+    width: 90px;
+    border-radius: 50px;
+}
+.platter5 p {
+    font-size: 1.8em;
+    margin: 15px 0;
+}
+.platter5 span {
+    font-size: 1.05em;
+    color: grey;
+}
+.platter6 {
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.platter7 {
+    align-items: end;
+    font-size: 2em;
+}
+.platter7 p {
+    margin: 0 0 5px 0;
+}
+.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: hamb;
+    color: white;
+    gap: 20px;
+}
+.burger1 {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/cta_bg_41.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.burger3 {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/cta_bg_42.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.burger4 {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/cta_bg_43.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.burger2 {
+    padding: 45px;
+}
+.burger2 b {
+    font-size: 1.5em;
+}
+.burger2 span {
+    font-size: 1.2em;
+    width: 60%;
+    margin-top: 10px;
+}
+.burger2 p {
+    font-size: .9em;
+    border-bottom: 3px solid white;
+    width: 30%;
+    padding: 5px;
+}
+.five-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.smokehouse {
+    /* margin: 50px; */
+    width: 200px;
+    gap: 50px;
+    padding: 50px 0;
+}
+.smokehouse img {
+    width: 100%;
+}
+.two-row2 {
+    grid-template-columns: 1fr 1fr;
+    font-family: hamb;
+}
+.bookingbg {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/booking_1.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Booking {
+    padding: 0 60px;
+    /* margin: 0 30px; */
+}
+.Booking1 h3 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+.booking2 {
+    font-size: 3em;
+    margin: 0 0 20px 0;
+    width: 80%;
+
+}
+.Booking1 span {
+    background-color: #C59D5F;
+    padding: 20px;
+    font-size: .9em;
+    color: white;
+    width: 20%;
+}
+.inside {
+    padding: 15px;
+    font-size: 1.1em;
+    width: 65%;
+    color: grey;
+    background-color: #F4EFE3;
+    border: none;
+}
+.inside1 {
+    gap: 20px;
+}
+.one-col {
+    grid-template-columns: 1fr;
+    font-family: hamb;
+}
+.col-three {
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 100px;
+    align-items: center;
+}
+.round {
+    gap: 20px;
+}
+.round1 img {
+    width: 150px;
+    border-radius: 75px;
+    margin-left: 50px;
+}
+.round2 p {
+    font-family: ash;
+    font-size: 1.1em;
+}
+.round2 b {
+    font-size: 2em;
+    font-weight: lighter;
+}
+.round2 span {
+    font-size: 1.1em;
+    font-family: ash;
+    color: grey;
+    margin: 10px 0;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+.arrow2 {
+    display: flex;
+    justify-content: center;
+}
+.col-three1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px 0;
+}
+.fresh1 {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/04/blog-s-1-4-410x300.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.fresh3 {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/04/blog-s-1-3-410x300.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.fresh4 {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/04/blog-s-1-7-410x300.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.fresh2 {
+    margin: 15px;
+}
+.fresh2 span {
+    font-size: .9em;
+    color: grey;
+}
+.fresh2 p {
+    font-size: 2em;
+    margin: 20px 0;
+}
+.fresh2 b {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    width: 25%;
+    font-size: .9em;
+}
+footer {
+    background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/05/footer_bg_1.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.col-four {
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    color: grey;
+    align-items: center;
+    font-family: hamb;
+}
+.restar1 {
+    width: 70%;
+}
+.restar1 p {
+    font-size: 1.1em;
+    line-height: 25px;
+}
+.quick {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+.quick p {
+    font-size: 1.5em;
+    border-bottom: #C59D5F 4px dotted;
+    width: 60%;
+    padding: 10px;
+    color: white;
+}
+.quick span {
+    font-size: 1.1em;
+    color: grey;
+}
+.socials img {
+    width: 30px;
+    background-color: rgb(67, 65, 65);
+    margin-left: 5px;
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+    .hero_right {
+        background-image: url(https://wordpress.themeholy.com/restar/wp-content/uploads/2024/04/hero_3_1.png);
+        /* width: 100%; */
+        height: 500px;
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: contain; */
+    }
+}
